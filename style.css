@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Figtree-semibold';
+  src: url(./assets/fonts/static/Figtree-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'Figtree-extrabold';
+  src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+html, body, .container {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: hsl(47, 88%, 63%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 330px;
+  min-width: 320px;
+
+  border: black solid .5px;
+  border-radius: 1.5rem;
+
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 8px 6px;
+
+  padding: 1.5rem;
+}
+
+.card-image {
+  max-width: 100%;
+
+  border-radius: .5rem;
+
+  margin-bottom: .7rem;
+}
+.card-content {
+  max-width: 320px;
+  
+  padding-top: 1rem;
+  font-family: "Figtree", sans-serif;
+}
+
+.tag {
+  font-size: .9rem;
+  font-family: "Figtree-extrabold";
+  font-weight: 800;
+
+  border-radius: .3rem;
+
+  padding: .3rem .6rem;
+}
+.tag-learning {
+  background-color: hsl(47, 88%, 63%);
+}
+
+.date {
+  font-size: .9rem;
+  font-family: 'Figtree-semibold';
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.blog-name {
+  margin-bottom: 1.1rem;
+  font-family: 'Figtree-extrabold';
+  font-weight: 800;
+}
+.blog-description {
+  margin-bottom: 2rem;
+
+  line-height: 1.5rem;
+
+  font-style: italic;
+  font-weight: 500;
+
+  color: hsl(0, 0%, 7%)
+}
+
+.blog-author {
+  display: flex;
+  align-items: center;
+}
+.author-image {
+  width: 2rem;
+  margin-right: 1rem;
+}
+.author-name {
+  font-size: .9rem;
+  font-family: 'Figtree-extrabold';
+  font-weight: 800;
+}
+
+.interactive:hover {
+  color:hsl(47, 88%, 63%);
+  cursor: pointer;
+}
